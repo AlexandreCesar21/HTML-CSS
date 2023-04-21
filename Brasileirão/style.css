@@ -1,0 +1,141 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+*{
+    font-family: Arial, Helvetica, sans-serif
+}
+
+:root {
+   --cor1: #131626;
+   --cor2: #98BF0B;
+   --cor3: #738C16;
+   --cor4: #D7F205;
+   --cor5: #0D0D0D;
+
+/*---------------------------- */
+
+    --cor6:#112959;
+    --cor7: #0C1D40;
+    --cor8: #1F438C;
+    --cor9: #A1BF34;
+    --cor10: #D7F205;
+    --cor11: #00296A;
+/*---------------------------- */
+
+--fonte-titulo: 'Bebas Neue', cursive;
+}
+
+
+
+
+/*#00296A
+
+background-color: #00296A;
+
+background-image: linear-gradient(to bottom, var(--cor6), var(--cor3))
+*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-image: linear-gradient(to bottom, var(--cor11), var(--cor3));
+    text-align: center;
+    padding-top: 40px;
+    min-height: 150px;
+    font-size: 1.3em;
+}
+
+header > h1 {
+    color: var(--cor4);
+    font-family: var(--fonte-titulo);
+    font-size: 4em;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
+    
+}
+
+main {
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.418);
+    
+
+}
+
+main > p {
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 30px;
+    font-size: 1em;
+    line-height: 2em;
+}
+
+
+
+main img.favo {
+    max-width: 500px;
+    display: block;
+    margin: auto;
+}
+
+main img.rebaixado {
+    max-width: 700px;
+    display: block;
+    margin: auto;
+}
+
+main img.Cruzeiro {
+    max-width: 300px;
+    display: block;
+    margin: auto;
+}
+
+main img.Gremio {
+    max-width: 270px;
+    display: block;
+    margin: auto;
+}
+
+main img.Bahia {
+    max-width: 270px;
+    display: block;
+    margin: auto;
+}
+
+main img.Vasco {
+    max-width: 300px;
+    display: block;
+    margin: auto;
+}
+
+main img {
+    width: 100%;
+}
+img.brasil {
+    max-width: 700px;
+    display: block;
+    margin: auto;
+}
+
+
+
+footer {
+    background-color: var(--cor4);
+    text-align: center;
+    padding: 5px;
+    font-size: 1em
+}
+
+footer a {
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+
+
