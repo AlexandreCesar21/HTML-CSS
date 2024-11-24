@@ -31,34 +31,45 @@ Este projeto apresenta uma página informativa sobre o <b>Campeonato Brasileiro 
 <p>• Destaque dos favoritos ao título: <b>Palmeiras</b> e <b>Flamengo</b>.</p>
 <p>• Detalhamento dos times que subiram para a Série A: <b>Cruzeiro</b>, <b>Grêmio</b>, <b>Bahia</b> e <b>Vasco</b>.</p>
 
-• 
-<b>    </b>
+
 <h3>3. Rodapé (Footer):</h3>
 <p>• Fundo amarelo (--cor4) com link para o <a href="https://github.com/AlexandreCesar21">GitHub do autor</a>, exibido em negrito</p>
 
+<h2>🎨 Estilização com CSS</h2>
 
-🎨 Estilização com CSS
-Paleta de Cores
-O design utiliza uma paleta definida por variáveis no CSS:
+<h3><b>Paleta de Cores</b></h3>
+<p>O design utiliza uma paleta definida por variáveis no CSS:</p>
+<p>• <b>Azul Escuro</b> --cor6 / --cor11</p>
+<p>• <b>Verde Limão:</b> --cor3 / --cor9</p>
+<p>• <b>Amarelo:</b> --cor4</p>
+<p>• <b>Preto:</b> --cor5</p>
 
-Azul Escuro: --cor6 / --cor11
-Verde Limão: --cor3 / --cor9
-Amarelo: --cor4
-Preto: --cor5
-Fontes e Tipografia
-Fonte Principal: Arial, Helvetica, sans-serif (para texto geral).
-Fonte para Títulos: Bebas Neue, importada do Google Fonts.
-Detalhes de Design
-Header:
-Gradiente dinâmico para um visual profissional.
-Títulos grandes e impactantes (4em) com sombra discreta.
-Main:
-Fundo branco com bordas sombreadas (box-shadow) para efeito de elevação.
-Textos organizados e alinhados com espaçamento entre linhas de 2em.
-Imagens ajustadas automaticamente (max-width) para dispositivos.
-Footer:
-Design simples e limpo com destaque ao link.
-🚀 Funcionalidades
-Responsividade Completa: Uso de @media queries para adaptar imagens e layout.
-Customização Simples: Paleta de cores e fontes configuradas com variáveis CSS.
-Organização Semântica: Tags estruturais como <header>, <main>, <footer>.
+
+
+<h3><b>Fontes e Tipografia</b></h3>
+
+<p>• <b>Fonte Principal:</b> Arial, Helvetica, sans-serif (para texto geral).</p>
+<p>• <b>Fonte para Títulos:</b> Bebas Neue, importada do Google Fonts.</p>
+
+
+<h3><b>Detalhes de Design</b></h3>
+
+<h4>1. <b>Header:</b></h4>
+<p>• Gradiente dinâmico para um visual profissional.</p>
+<p>• Títulos grandes e impactantes (4em) com sombra discreta.</p>
+
+<h4>2. <b>Main:</b></h4>
+<p>• Fundo branco com bordas sombreadas (box-shadow) para efeito de elevação.</p>
+<p>• Textos organizados e alinhados com espaçamento entre linhas de 2em.</p>
+<p>• Imagens ajustadas automaticamente (max-width) para dispositivos.</p>
+
+
+<h4>3. <b>Footer:</b></h4>
+<p>• Design simples e limpo com destaque ao link.</p>
+
+<h3>🚀 Funcionalidades</h3>
+
+<p>• <b>Responsividade Completa:</b> Uso de <b>@media</b> queries para adaptar imagens e layout.</p>
+<p>• <b>Customização Simples:</b> Paleta de cores e fontes configuradas com variáveis CSS.</p>
+<p>• <b>Organização Semântica:</b> Tags estruturais como <b>header</b>, <b>main</b>, <b>footer</b>.</p>
+
